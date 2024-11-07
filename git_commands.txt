@@ -1,0 +1,671 @@
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Note
+[?2004lbash: Note: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Vim, Emacs and Notepad++ are popular text editors often used by developers on Unix-based systems like Linux and macOS or a Windows system. If you are using another editor, or a 32-bit version, please find specific instructions for how to set up your favorite editor with Git in git config core.editor commands.
+[?2004lbash: Vim,: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Warning
+[?2004lbash: Warning: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ You may find, if you don’t setup your editor like this, you get into a really confusing state when Git attempts to launch it. An example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.
+[?2004lbash: You: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Your default branch name
+[?2004lbash: Your: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ By default Git will create a branch called master when you create a new repository with git init. From Git version 2.28 onwards, you can set a different name for the initial branch.
+[?2004lbash: By: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ To set main as the default branch name do:
+[?2004lbash: To: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ git config --global init.defaultBranch main
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Checking Your Settings
+[?2004lbash: Checking: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
+[?2004lbash: If: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ git config --list
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ user.name=John Doe
+[?2004lbash: user.name=John: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ user.email=johndoe@example.com
+[?2004lbash: user.email=johndoe@example.com: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ color.status=auto
+[?2004lbash: color.status=auto: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ color.branch=auto
+[?2004lbash: color.branch=auto: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ color.interactive=auto
+[?2004lbash: color.interactive=auto: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ color.diff=auto
+[?2004lbash: color.diff=auto: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ ...
+[?2004lbash: ...: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ You may see keys more than once, because Git reads the same key from different files ([path]/etc/gitconfig and ~/.gitconfig, for example). In this case, Git uses the last value for each unique key it sees.
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ You can also check what Git thinks a specific key’s value is by typing git config <key>:
+[?2004lbash: key: No such file or directory
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ git config user.name
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ John Doe
+[?2004lbash: John: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Note
+[?2004lbash: Note: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Since Git might read the same configuration variable value from more than one file, it’s possible that you have an unexpected value for one of these values and you don’t know why. In cases like that, you can query Git as to the origin for that value, and it will tell you which configuration file had the final say in setting that value:
+[?2004lbash: Since: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ 
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ git config --show-origin rerere.autoUpdate
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ file:/home/johndoe/.gitconfig[?5h[?5lfalse
+[?2004lbash: file:/home/johndoe/.gitconfigfalse: No such file or directory
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ prev | next
+[?2004lbash: prev: command not found
+bash: next: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ About this site
+[?2004lbash: About: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ Patches, suggestions, and comments are welcome.Git is a member of Software Freedom Conservancy[C[CAbout this site[K[C[C[4Pprev | next[C[Cfile:/home/johndoe/.gitconfigfalse[C[C$ git config --show-origin rerere.autoUpdate[C[CSince Git might read the same configuration variable value from more than one file, it’s possible that you have an unexpected value for one of these values and you don’t know why. In cases like that, you can query Git as to the origin for that value, and it will tell you which configuration file had the final say in setting that value:[A[A[C[CNote[K
+[K
+[K[A[A[C[C[C[C[C[C[C[CJohn Doe[C[C$ git config user.name[C[CYou can also check what Git thinks a specific key’s value is by typing git config <key>:[C[C[C[C[C[Cmay see keys more than once, because Git reads the same key from different files ([path]/etc/gitconfig and ~/.gitconfig, for example). In this case, Git uses the last value for each unique key it sees.[A[C[C...[K
+[K[A[C[C[C[C[Ccolor.diff=autointeractive=auto[C[C[C[C[C[C[C[C[5Pbranch=auto[C[C[C[C[C[C[C[Cstatus=auto[C[Cuser.email=johndoe@example.com[C[C[C[C[C[C[C[12Pname=John Doe[C[C$ git config --list[C[CIf you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:[A[C[C$ git config --list[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Puser.name=John Doe[C[C[C[C[C[C[Cemail=johndoe@example.com[C[C[C[C[C[C[C[12Pname=John Doe[C[C$ git config --list[C[CIf you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:[A[C[CChecking Your Settings[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ git config --global init.defaultBranch main[C[C[3PTo set main as the default branch name do:[C[CBy default Git will create a branch called master when you create a new repository with git init. From Git version 2.28 onwards, you can set a different name for the initial branch.[A[C[CYour default branch name[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C may find, if you don’t setup your editor like this, you get into a really confusing state when Git attempts to launch it. An example on a Windows system may include a prematurely terminated Git operation during a Git initiated edit.[A[C[CWarning[K
+[K[A[C[C[C[C[C[C[C[C[C[C[CVim, Emacs and Notepad++ are popular text editors often used by developers on Unix-based systems like Linux and macOS or a Windows system. If you are using another editor, or a 32-bit version, please find specific instructions for how to set up your favorite editor with Git in git config core.editor commands.[A[A[C[CNote[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"[Aexec > >(tee -a commands_git.txt) 2>&1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pgit config --list --show-origin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cglobal user.email "apoorva.dixit@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pname "Apoorva"[C[Ccd[KCD[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5lcdgit config --global user.name "Apoorva"email "apoorva.dixit@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pname "Apoorva"email "apoorva.dixit@tigeranalytics.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Plist --show-origin[C[Cexec > >(tee -a commands_git.txt) 2>&1[C[C$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"[K"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexe' -multiInst -notabbar -nosession -noPlugin"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexe' -multiInst -notabbar -nosession -noPlugin" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@C:\ProgramData\Microsoft\Windows\Start Menu\Programsexe' -multiInst -notabbar -nosession -noPlugin"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.exe' -multiInst -notabbar -nos[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ git config --global core.editor "'C:\ProgramData\Microsoft\Windows\Start Menu\Programs.exe' -multiInst -notabbar -nosession -noPlugin"\[K[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ git config --global init.defaultBranch main\[K
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ git --help
+[?2004lusage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   restore    Restore working tree files
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   diff       Show changes between commits, commit and working tree, etc
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   backfill   Download missing objects in a partial clone
+   branch     List, create, or delete branches
+   commit     Record changes to the repository
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   reset      Reset current HEAD to the specified state
+   switch     Switch branches
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ [K$ $ cd C:/Users/user/my_project[K[K[K[K[K[K[K[K[K[Kap[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ [?5h[?5l[?5h[?5l[?5h[?5lls
+[?2004l3D Objects/
+4.ML_models.ipynb
+Adaboost/
+Adaboost_cancer_prediction.ipynb
+Algorithm+of+PCA+Demonstration.ipynb
+Amazon Fine Food Reviews Analysis.ipynb
+Amazon fine foods/
+ankit_ai/
+Ankits code/
+ansel/
+AppData/
+Application Data@
+Assignment 12  Tensorflow.ipynb
+Assignment 12 Keras.ipynb
+Assignment.ipynb
+Assignment_1.ipynb
+Betas+for+Logistic+Regression.ipynb
+Binary search trees.ipynb
+Boosting+-+TalkingData+Click+Fraud+.ipynb
+broadcast data curation.ipynb
+captcha_images_v2.zip
+Character Recognition for capcha.ipynb
+Churn_Modelling.csv
+cluster_centers.JPG
+cluster_regions.JPG
+CNN_MNIST.ipynb
+combined_text_output.txt
+commands_git.txt
+commands1.txt
+complaints.csv
+Cookies@
+cp
+Dashboard 101 Data.ipynb
+Dashboard 101 Media(Social Media).ipynb
+data analysis.ipynb
+data_import_final.ipynb
+database.sqlite
+Dataset.csv
+day.csv
+Decision_trees/
+Documents/
+Downloads/
+dropoff_outliers.JPG
+echo
+EDA_on_StackOverflow_dataset.ipynb
+EDA+and+RDS+EC2.ipynb
+faiss_index.idx
+file.txt
+Flipkart_Web+Scraping_Graded_Question.ipynb
+Games/
+genpact test.ipynb
+gradient decent/
+helpful codes.ipynb
+hour.csv
+install_folium (1).JPG
+install_folium.JPG
+install_graphviz.JPG
+install_xgboost.JPG
+IntelGraphicsProfiles/
+Investments.xlsx
+Iris.csv
+Keras_Mnist.ipynb
+LinearRegression.ipynb
+LIVE_2_Mathematical_Programming_Problems.ipynb
+LIVE_3_More_Math_Programming_Problems.ipynb
+LIVE_4_Strings_Regex.ipynb
+LIVE_5_Strings_Regexes_II.ipynb
+LIVE_6_DP_inbuilt_DS.ipynb
+LIVE_OOP_Basics_II.ipynb
+LIVE_OOP_Basics_Python_I.ipynb
+LIVE-1_Python.ipynb
+Local Settings@
+logistic regression/
+LSTM - Assignment.ipynb
+LSTM amazon fine foods review.ipynb
+LSTM_IMDB.ipynb
+mapping.csv
+Market_Basket_Optimisation.csv
+MDC Data Analysis Notebook.ipynb
+MicrosoftEdgeBackups/
+Missing Value Check.ipynb
+MLP_Tensorflow_drive.ipynb
+MNIST_data/
+My Documents@
+my_file.txt
+mydask.png
+naives bayes/
+NCH Software Suite/
+Netflix_Movie.ipynb
+NetHood@
+New folder/
+New Text Document.txt
+New_york.gif
+nlp/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{bfe55f4d-f52c-11ea-a00e-9401a718df6e}.TM.blf
+NTUSER.DAT{bfe55f4d-f52c-11ea-a00e-9401a718df6e}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{bfe55f4d-f52c-11ea-a00e-9401a718df6e}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+NYC Final.ipynb
+office work accenture/
+OneDrive/
+PCA/
+PCA Demo I.ipynb
+PersonalizedCancerDiagnosis.ipynb
+Postman/
+preprocessed_data.csv
+PrintHood@
+PycharmProjects/
+python training .ipynb
+Recent@
+results.csv
+rounds2.csv
+Sapient.ipynb
+scikit_learn_data/
+SendTo@
+Simple linear regression.csv
+sn.txt
+source/
+StackOverFlow.ipynb
+Start Menu@
+SVM new/
+talks.txt
+Templates@
+Tensorflow_Softmax_Classifier.ipynb
+test.csv
+test.ipynb
+test1.csv
+TigerOfficeFilesImportant/
+Time_series_analysis/
+titanic .ipynb
+titanic.csv
+train_sample.csv
+Transformer.ipynb
+Unix_commands.txt
+Untitled Folder/
+Untitled Folder 1/
+Untitled Folder 2/
+Untitled Folder 3/
+Untitled Folder 5/
+Untitled.ipynb
+Untitled1.ipynb
+Untitled10.ipynb
+Untitled11.ipynb
+Untitled12.ipynb
+Untitled13.ipynb
+Untitled14.ipynb
+Untitled15.ipynb
+Untitled16.ipynb
+Untitled17.ipynb
+Untitled18.ipynb
+Untitled19.ipynb
+Untitled2.ipynb
+Untitled20.ipynb
+Untitled21.ipynb
+Untitled22.ipynb
+Untitled23.ipynb
+Untitled24.ipynb
+Untitled25.ipynb
+Untitled26.ipynb
+Untitled27.ipynb
+Untitled28.ipynb
+Untitled29.ipynb
+Untitled3.ipynb
+Untitled30.ipynb
+Untitled31.ipynb
+Untitled32.ipynb
+Untitled33.ipynb
+Untitled34.ipynb
+Untitled35.ipynb
+Untitled36.ipynb
+Untitled37.ipynb
+Untitled38.ipynb
+Untitled39.ipynb
+Untitled4.ipynb
+Untitled40.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+Untitled7.ipynb
+Untitled8.ipynb
+Untitled9.ipynb
+Vaccine assignment.ipynb
+walmart_regression_analysis.ipynb
+Web+Scraping_imdb.ipynb
+yellow_tripdata_2015-01.csv
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ $ cd C:/Users/user/my_project
+[?2004lbash: $: command not found
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ pwd
+[?2004l/c/Users/apoor
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ cd /c/Users/apoor/my_project
+[?2004lbash: cd: /c/Users/apoor/my_project: No such file or directory
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ cd /c/Users/apoor/my_project[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l[?5h[?5l../apoorv [K/my_project
+[?2004lbash: ../apoorv/my_project: No such file or directory
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ ls[K[K[?5h[?5lpwd
+[?2004l/c/Users/apoor
+[?2004h]0;MINGW64:/c/Users/apoor
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~[36m[0m
+$ cd tigerTigerOfficeFilesImportant/
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m[0m
+$ git init
+[?2004lInitialized empty Git repository in C:/Users/apoor/TigerOfficeFilesImportant/.git/
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git add *.c
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git add l[KLICENCEE[K
+[?2004lfatal: pathspec 'LICENCE' did not match any files
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git add *.txt
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git commit -m 'Initial projec[K$ git commit -m 'Initial projec[K$ git commit -m 'Initial projec version'
+[?2004l[main (root-commit) c592934] Initial projec version
+ 1 file changed, 1800 insertions(+)
+ create mode 100644 Unix_commands.txt
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git clone https://github.com/libgit2/libgit2
+[?2004lCloning into 'libgit2'...
+Updating files:  14% (1747/11879)Updating files:  15% (1782/11879)Updating files:  16% (1901/11879)Updating files:  17% (2020/11879)Updating files:  18% (2139/11879)Updating files:  19% (2258/11879)Updating files:  20% (2376/11879)Updating files:  21% (2495/11879)Updating files:  22% (2614/11879)Updating files:  23% (2733/11879)Updating files:  24% (2851/11879)Updating files:  24% (2899/11879)Updating files:  25% (2970/11879)Updating files:  26% (3089/11879)Updating files:  27% (3208/11879)Updating files:  28% (3327/11879)Updating files:  29% (3445/11879)Updating files:  30% (3564/11879)Updating files:  31% (3683/11879)Updating files:  32% (3802/11879)Updating files:  33% (3921/11879)Updating files:  34% (4039/11879)Updating files:  35% (4158/11879)Updating files:  36% (4277/11879)Updating files:  36% (4373/11879)Updating files:  37% (4396/11879)Updating files:  38% (4515/11879)Updating files:  39% (4633/11879)Updating files:  40% (4752/11879)Updating files:  41% (4871/11879)Updating files:  42% (4990/11879)Updating files:  43% (5108/11879)Updating files:  44% (5227/11879)Updating files:  45% (5346/11879)Updating files:  46% (5465/11879)Updating files:  47% (5584/11879)Updating files:  48% (5702/11879)Updating files:  49% (5821/11879)Updating files:  50% (5940/11879)Updating files:  50% (6008/11879)Updating files:  51% (6059/11879)Updating files:  52% (6178/11879)Updating files:  53% (6296/11879)Updating files:  54% (6415/11879)Updating files:  55% (6534/11879)Updating files:  56% (6653/11879)Updating files:  57% (6772/11879)Updating files:  58% (6890/11879)Updating files:  59% (7009/11879)Updating files:  60% (7128/11879)Updating files:  61% (7247/11879)Updating files:  62% (7365/11879)Updating files:  63% (7484/11879)Updating files:  64% (7603/11879)Updating files:  64% (7720/11879)Updating files:  65% (7722/11879)Updating files:  66% (7841/11879)Updating files:  67% (7959/11879)Updating files:  68% (8078/11879)Updating files:  69% (8197/11879)Updating files:  70% (8316/11879)Updating files:  71% (8435/11879)Updating files:  72% (8553/11879)Updating files:  73% (8672/11879)Updating files:  74% (8791/11879)Updating files:  75% (8910/11879)Updating files:  76% (9029/11879)Updating files:  77% (9147/11879)Updating files:  78% (9266/11879)Updating files:  78% (9274/11879)Updating files:  79% (9385/11879)Updating files:  80% (9504/11879)Updating files:  81% (9622/11879)Updating files:  82% (9741/11879)Updating files:  83% (9860/11879)Updating files:  84% (9979/11879)Updating files:  85% (10098/11879)Updating files:  86% (10216/11879)Updating files:  86% (10273/11879)Updating files:  87% (10335/11879)Updating files:  88% (10454/11879)Updating files:  89% (10573/11879)Updating files:  90% (10692/11879)Updating files:  91% (10810/11879)Updating files:  92% (10929/11879)Updating files:  93% (11048/11879)Updating files:  94% (11167/11879)Updating files:  95% (11286/11879)Updating files:  96% (11404/11879)Updating files:  96% (11516/11879)Updating files:  97% (11523/11879)Updating files:  98% (11642/11879)Updating files:  99% (11761/11879)Updating files: 100% (11879/11879)Updating files: 100% (11879/11879), done.
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ ls
+[?2004llibgit2/
+shell-lesson-data/
+shell-lesson-data.zip
+Unix_commands.txt
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git a[Kstatus
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	libgit2/
+	shell-lesson-data.zip
+	shell-lesson-data/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ gi asd[K[K[K[Kr[Kt add .
+[?2004lwarning: adding embedded git repository: libgit2
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint: 	git submodule add <url> libgit2
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint: 	git rm --cached libgit2
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/all.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/cubane.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/ethane.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/methane.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/octane.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/pentane.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/alkanes/propane.pdb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/animal-counts/animals.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/animal-counts/final.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/creatures/basilisk.dat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/creatures/minotaur.dat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/creatures/unicorn.dat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/numbers.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/sorted.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/exercise-data/writing/haiku.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01729A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01729B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01736A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01751A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01751B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01812A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01843A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01843B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01971Z.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01978A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE01978B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE02018B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE02040A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE02040B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE02040Z.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE02043A.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/NENE02043B.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/goodiff.sh', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'shell-lesson-data/north-pacific-gyre/goostats.sh', LF will be replaced by CRLF the next time Git touches it
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git status
+[?2004lOn branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   libgit2
+	new file:   shell-lesson-data.zip
+	new file:   shell-lesson-data/Git-2.47.0.2-64-bit.exe
+	new file:   shell-lesson-data/exercise-data/alkanes/all.pdb
+	new file:   shell-lesson-data/exercise-data/alkanes/cubane.pdb
+	new file:   shell-lesson-data/exercise-data/alkanes/ethane.pdb
+	new file:   shell-lesson-data/exercise-data/alkanes/methane.pdb
+	new file:   shell-lesson-data/exercise-data/alkanes/octane.pdb
+	new file:   shell-lesson-data/exercise-data/alkanes/pentane.pdb
+	new file:   shell-lesson-data/exercise-data/alkanes/propane.pdb
+	new file:   shell-lesson-data/exercise-data/animal-counts/animals.csv
+	new file:   shell-lesson-data/exercise-data/animal-counts/final.txt
+	new file:   shell-lesson-data/exercise-data/creatures/basilisk.dat
+	new file:   shell-lesson-data/exercise-data/creatures/minotaur.dat
+	new file:   shell-lesson-data/exercise-data/creatures/unicorn.dat
+	new file:   shell-lesson-data/exercise-data/numbers.txt
+	new file:   shell-lesson-data/exercise-data/sorted.txt
+	new file:   shell-lesson-data/exercise-data/writing/LittleWomen.txt
+	new file:   shell-lesson-data/exercise-data/writing/haiku.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01729A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01729B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01736A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01751A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01751B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01812A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01843A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01843B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01971Z.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01978A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE01978B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE02018B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE02040A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE02040B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE02040Z.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE02043A.txt
+	new file:   shell-lesson-data/north-pacific-gyre/NENE02043B.txt
+	new file:   shell-lesson-data/north-pacific-gyre/goodiff.sh
+	new file:   shell-lesson-data/north-pacific-gyre/goostats.sh
+
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git status[1Padd .status[C[Cls[Kgit clone https://github.com/libgit2/libgit2[C[C[C[C[C[C[C[6Pommit -m 'Initial projec version'[Ct version'
+[?2004l[main 437f619] Initial project version
+ 38 files changed, 26825 insertions(+)
+ create mode 160000 libgit2
+ create mode 100644 shell-lesson-data.zip
+ create mode 100644 shell-lesson-data/Git-2.47.0.2-64-bit.exe
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/all.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/cubane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/ethane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/methane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/octane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/pentane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/propane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/animal-counts/animals.csv
+ create mode 100644 shell-lesson-data/exercise-data/animal-counts/final.txt
+ create mode 100644 shell-lesson-data/exercise-data/creatures/basilisk.dat
+ create mode 100644 shell-lesson-data/exercise-data/creatures/minotaur.dat
+ create mode 100644 shell-lesson-data/exercise-data/creatures/unicorn.dat
+ create mode 100644 shell-lesson-data/exercise-data/numbers.txt
+ create mode 100644 shell-lesson-data/exercise-data/sorted.txt
+ create mode 100644 shell-lesson-data/exercise-data/writing/LittleWomen.txt
+ create mode 100644 shell-lesson-data/exercise-data/writing/haiku.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01729A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01729B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01736A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01751A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01751B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01812A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01843A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01843B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01971Z.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01978A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01978B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02018B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040Z.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02043A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02043B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/goodiff.sh
+ create mode 100644 shell-lesson-data/north-pacific-gyre/goostats.sh
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git s[Kd[Kd[Ksya[K[Ktatus
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ echa [K[Ko Readme
+[?2004lReadme
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ echo 'my project'> README
+[?2004l[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git sttus[K[K[Katus 
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	README
+	README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git add README
+[?2004lwarning: in the working copy of 'README', LF will be replaced by CRLF the next time Git touches it
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ git sts=a[K[K[Katus
+[?2004lOn branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   README
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	README.txt
+
+[?2004h]0;MINGW64:/c/Users/apoor/TigerOfficeFilesImportant
+[32mapoorva@DESKTOP-LO88R84 [35mMINGW64 [33m~/TigerOfficeFilesImportant[36m (main)[0m
+$ ][Kvim contributing.md
+[?2004lVim: Warning: Output is not to a terminal
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;46r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[46;1H"contributing.md" [New][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [30;1H~                                                                                                                       [31;1H~                                                                                                                       [32;1H~                                                                                                                       [33;1H~                                                                                                                       [34;1H~                                                                                                                       [35;1H~                                                                                                                       [36;1H~                                                                                                                       [37;1H~                                                                                                                       [38;1H~                                                                                                                       [39;1H~                                                                                                                       [40;1H~                                                                                                                       [41;1H~                                                                                                                       [42;1H~                                                                                                                       [43;1H~                                                                                                                       [44;1H~                                                                                                                       [m[45;1H[1m[7mcontributing.md [unix] (05:29 01/01/1970)                                                                      0,0-1 All[1;1H[?25h[?4m[?25l[m[46;110H^M[1;1H[?5h[?25h[?5l[?25l[46;110H  [1;1H[?25h[?25l[46;110H^M[1;1H[?5h[?25h[?5l[?25l[46;110H  [1;1H[?25h[?25l[46;110H^X[1;1H[46;110H  [1;1H[?25h[?25l[46;110H^X[1;1H[46;110H  [1;1H[?25h[?25l[46;110H^X[1;1H[46;110H  [1;1H[?25h[?25l[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H^M[1;1H[46;110H  [1;1H[?25h[?25l[46;110Hw[1;1H[46;110H [1;1H[?25h[?25l[46;110Hf[1;1H[?25h[?25l[46;111Hk[1;1H[?5h[?25h[?5l[?25l[46;110H  [1;1H[?25h[?25l[46;110H-[1;1H[46;110H [1;1H[?25h[?25l[46;110Hp[1;1H[46;110H [1;14Hgit add README[45;16H[1m[7m[+] [unix] (05:29 01/01/1970)[67C 1,14 [1;14H[?25h[?25l[m[46;110H2[1;14H[?25h[?25l[46;111H1[1;14H[?25h[?25l[46;112H^M[1;14H[?5h[?25h[?5l[?25l[46;110H    [1;14H[?25h[?25l[46;110H~@k[1;14H[46;110H   [1;13H[45;116H[1m[7m3 [1;13H[?25h[?25l[m[46;110H~@k[1;13H[46;110H   [1;12H[45;116H[1m[7m2 [1;12H[?25h[?25l[m[46;110H~@k[1;12H[46;110H   [1;11H[45;116H[1m[7m1 [1;11H[?25h[?25l[m[46;110H~@k[1;11H[46;110H   [1;10H[45;116H[1m[7m0 [1;10H[?25h[?25l[m[46;110H~@k[1;10H[46;110H   [1;9H[45;113H[1m[7m 1,9 [1;9H[?25h[?25l[m[46;110H~@k[1;9H[46;110H   [1;8H[45;116H[1m[7m8 [1;8H[?25h[?25l[m[46;110H~@k[1;8H[46;110H   [1;7H[45;116H[1m[7m7 [1;7H[?25h[?25l[m[46;110H~@k[1;7H[46;110H   [1;6H[45;116H[1m[7m6 [1;6H[?25h[?25l[m[46;110Hs[1;6H[46;110H [1;6H[46;110Hcl[1;6H[46;110H  [1;6H[46;1H[1m-- INSERT --[m[46;13H[K[1;7H README[1;14H[K[1;6H[?25h[45;116H[1m[7m7 [1;7H[45;116H8 [1;8H[?25l[msREADME[45;116H[1m[7m9 [1;9H[?25h[45;113H1,10 [1;10H[45;116H1 [1;11H[45;116H2 [1;12H[45;116H3 [1;13H[45;116H4 [1;14H[?25l[msE[45;116H[1m[7m5 [1;15H[?25h[?25l[mE[1;15H[K[45;116H[1m[7m4 [1;14H[?25h[?25l[mE[1;14H[K[45;116H[1m[7m3 [1;13H[?25h[?25l[mE[1;13H[K[45;116H[1m[7m2 [1;12H[?25h[?25l[mE[1;12H[K[45;116H[1m[7m1 [1;11H[?25h[?25l[m[1;11H[K[45;116H[1m[7m0 [1;10H[?25h[?25l[mE[1;10H[K[45;113H[1m[7m 1,9 [1;9H[?25h[?25l[mE[1;9H[K[45;116H[1m[7m8 [1;8H[?25h[?25l[mE[1;8H[K[45;116H[1m[7m7 [1;7H[?25h[?25l[mE[1;7H[K[45;116H[1m[7m6 [1;6H[?25h[?25l[mE[1;6H[K[45;116H[1m[7m5 [1;5H[?25h[45;116H6 [1;6H[?25l[m[1;5H[K[45;116H[1m[7m5 [1;5H[?25h[?25l[ms[45;116H[1m[7m6 [1;6H[?25h[?25l[mt[45;116H[1m[7m7 [1;7H[?25h[?25l[ma[45;116H[1m[7m8 [1;8H[?25h[?25l[mt[45;116H[1m[7m9 [1;9H[?25h[?25l[mu[45;113H[1m[7m1,10 [1;10H[?25h[?25l[ms[45;116H[1m[7m1 [1;11H[?25h[?25l[m[2;1H[K[45;113H[1m[7m 2,1[2;1H[?25h[?25l[m[3;1H[K[45;114H[1m[7m3,[3;1H[?25h[?25l[m[94m~                                                                                                                       [m[45;114H[1m[7m2,[2;1H[?25h[?25l[m[3;1H[K[45;114H[1m[7m3,[3;1H[?25h[?25l[m[4;1H[K[45;114H[1m[7m4,[4;1H[?25h[?25l[m[5;1H[K[45;114H[1m[7m5,[5;1H[?25h[?25l[m[6;1H[K[45;114H[1m[7m6,[6;1H[?25h[?25l[m[7;1H[K[45;114H[1m[7m7,[7;1H[?25h[?25l[m[8;1H[K[45;114H[1m[7m8,[8;1H[?25h[?25l[m[9;1H[K[45;114H[1m[7m9,[9;1H[?25h[?25l[m[10;1H[K[45;113H[1m[7m10,[10;1H[?25h[?25l[m[11;1H[K[45;114H[1m[7m1,[11;1H[?25h[?25l[m[12;1H[K[45;114H[1m[7m2,[12;1H[?25h[?25l[m[13;1H[K[45;114H[1m[7m3,[13;1H[?25h[?25l[m[14;1H[K[45;114H[1m[7m4,[14;1H[?25h[?25l[m[15;1H[K[45;114H[1m[7m5,[15;1H[?25h[?25l[m[16;1H[K[45;114H[1m[7m6,[16;1H[?25h[?25l[m[17;1H[K[45;114H[1m[7m7,[17;1H[?25h[?25l[m[18;1H[K[45;114H[1m[7m8,[18;1H[?25h[?25l[m[19;1H[K[45;114H[1m[7m9,[19;1H[?25h[?25l[m[20;1H[K[45;113H[1m[7m20,[20;1H[?25h[?25l[m[21;1H[K[45;114H[1m[7m1,[21;1H[?25h[?25l[m[22;1H[K[45;114H[1m[7m2,[22;1H[?25h[?25l[m[23;1H[K[45;114H[1m[7m3,[23;1H[?25h[?25l[m[24;1H[K[45;114H[1m[7m4,[24;1H[?25h[?25l[m[25;1H[K[45;114H[1m[7m5,[25;1H[?25h[?25l[m[26;1H[K[45;114H[1m[7m6,[26;1H[?25h[?25l[m[27;1H[K[45;114H[1m[7m7,[27;1H[?25h[?25l[m[28;1H[K[45;114H[1m[7m8,[28;1H[?25h[?25l[m[29;1H[K[45;114H[1m[7m9,[29;1H[?25h[?25l[m[30;1H[K[45;113H[1m[7m30,[30;1H[?25h[?25l[m[31;1H[K[45;114H[1m[7m1,[31;1H[?25h[?25l[m[32;1H[K[45;114H[1m[7m2,[32;1H[?25h[?25l[m[33;1H[K[45;114H[1m[7m3,[33;1H[?25h[?25l[m[34;1H[K[45;114H[1m[7m4,[34;1H[?25h[?25l[m[35;1H[K[45;114H[1m[7m5,[35;1H[?25h[?25l[m[36;1H[K[45;114H[1m[7m6,[36;1H[?25h[?25l[m[37;1H[K[45;114H[1m[7m7,[37;1H[?25h[?25l[m[38;1H[K[45;114H[1m[7m8,[38;1H[?25h[?25l[m[39;1H[K[45;114H[1m[7m9,[39;1H[?25h[?25l[m[40;1H[K[45;113H[1m[7m40,[40;1H[?25h[?25l[m[41;1H[K[45;114H[1m[7m1,[41;1H[?25h[?25l[m[42;1H[K[45;114H[1m[7m2,[42;1H[?25h[?25l[m[43;1H[K[45;114H[1m[7m3,[43;1H[?25h[?25l[m[44;1H[K[45;114H[1m[7m4,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m5,1 Bot[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m6,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m7,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m8,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m9,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;113H[1m[7m50,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m1,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m2,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m3,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m4,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m5,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m6,[44;1H[?25h[?25l[1;44r[m[44;1H
+[1;46r[45;114H[1m[7m7,[44;1H[?25h[?5h[?5l[?5h[?5l[45;114H6,[43;1H[45;114H5,[42;1H[45;114H4,[41;1H[45;114H3,[40;1H[45;114H2,[39;1H[45;114H1,[38;1H[45;114H0,[37;1H[45;113H49,[36;1H[45;114H8,[35;1H[45;114H7,[34;1H[45;114H6,[33;1H[45;114H5,[32;1H[45;114H4,[31;1H[45;114H3,[30;1H[45;114H2,[29;1H[45;114H1,[28;1H[45;114H0,[27;1H[45;113H39,[26;1H[45;114H8,[25;1H[?25l[m[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[25;1H[?25h[?25l[46;4HINSERTe --^[m[46;13H[K[26;44r[26;1H[L[1;46r[45;114H[1m[7m9,1 92%[26;1H[?25h[?25l[m[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[26;1H[?25h[?25l[46;4HINSERTe --^[m[46;13H[K[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[26;1H[?25h[?25l[46;4HINSERTe --^[m[46;13H[K[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[26;1H[?25h[?25l[46;4HINSERTe --^[m[46;13H[K[46;1H[K[45;111H[1m[7m39,0-1[26;1H[?25h[?25l[m[46;110H^X[26;1H[46;110H  [26;1H[?25h[?25l[46;110H^X[26;1H[46;110H  [26;1H[?25hType  :qa!  and press <Enter> to abandon all changes and exit Vim[?5h[?5lType  :qa!  and press <Enter> to abandon all changes and exit Vim[?25l[46;110H^M[26;1H[46;110H  [27;1H[45;111H[1m[7m40,[27;1H[?25hType  :qa!  and press <Enter> to abandon all changes and exit Vim[?5h[?5l[?25l[m[46;110Hq[27;1H[?25h[?25l[46;111Ha[27;1H[46;1H[1mrecording @a[m[46;110H[K[27;1H[?25h[?25l[46;110H![27;1H[?25h[?25l[46;111H^M[27;1H[46;110H   [27;1H[46;1H[K[46;1H:.,.+1![?25h[?25l[46;7H[K[46;7H[?25h[?25l[46;6H[K[46;6H[?25h[?25l[46;5H[K[46;5H[?25hqa![?25l[97m[41mE481: No range allowed[m[1mrecording @a[m[46;13H[K[27;1H[?25h[?25l[46;110H~@k[27;1H[46;110H   [26;1H[45;111H[1m[7m39,[26;1H[?25h[?25l[m[46;110H~@k[26;1H[46;110H   [25;1H[45;112H[1m[7m8,[25;1H[?25h[?25l[m[46;110H~@k[25;1H[46;110H   [24;1H[45;112H[1m[7m7,[24;1H[?25h[?25l[m[46;110H~@k[24;1H[46;110H   [23;1H[45;112H[1m[7m6,[23;1H[?25h[?25l[m[46;110H~@k[23;1H[46;110H   [22;1H[45;112H[1m[7m5,[22;1H[?25h[?25l[m[46;110H~@k[22;1H[46;110H   [21;1H[45;112H[1m[7m4,[21;1H[?25h[?25l[m[46;110H~@k[21;1H[46;110H   [20;1H[45;112H[1m[7m3,[20;1H[?25h[?25l[m[46;110H~@k[20;1H[46;110H   [19;1H[45;112H[1m[7m2,[19;1H[?25h[?25l[m[46;110H~@k[19;1H[46;110H   [18;1H[45;112H[1m[7m1,[18;1H[?25h[?25l[m[46;110H~@k[18;1H[46;110H   [17;1H[45;112H[1m[7m0,[17;1H[?25h[?25l[m[46;110H~@k[17;1H[46;110H   [16;1H[45;111H[1m[7m29,[16;1H[?25h[?25l[m[46;110H~@k[16;1H[46;110H   [15;1H[45;112H[1m[7m8,[15;1H[?25h[?25l[m[46;110H~@k[15;1H[46;110H   [14;1H[45;112H[1m[7m7,[14;1H[?25h[?25l[m[46;110H~@k[14;1H[46;110H   [13;1H[45;112H[1m[7m6,[13;1H[?25h[?25l[m[46;110H~@k[13;1H[46;110H   [12;1H[45;112H[1m[7m5,[12;1H[?25h[?25l[m[46;110H~@k[12;1H[46;110H   [11;1H[45;112H[1m[7m4,[11;1H[?25h[?25l[m[46;110H~@k[11;1H[46;110H   [10;1H[45;112H[1m[7m3,[10;1H[?25h[?25l[m[46;110H~@k[10;1H[46;110H   [9;1H[45;112H[1m[7m2,[9;1H[?25h[?25l[m[46;110H~@k[9;1H[46;110H   [8;1H[45;112H[1m[7m1,[8;1H[?25h[?25l[m[46;110H~@k[8;1H[46;110H   [7;1H[45;112H[1m[7m0,[7;1H[?25h[?25l[m[46;110H~@k[7;1H[46;110H   [6;1H[45;111H[1m[7m19,[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m8,0-1 85%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m7,0-1 78%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m6,0-1 71%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m5,0-1 64%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m4,0-1 57%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m3,0-1 50%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m2,0-1 42%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m1,0-1 35%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m0,0-1 28%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;111H[1m[7m 9,0-1 21%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m8,0-1 14%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[45;112H[1m[7m7,0-1  7%[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [6;1H[1;44r[1;1H[L[1;46r[1;1Hgit status[45;112H[1m[7m6,0-1 Top[6;1H[?25h[?25l[m[46;110H~@k[6;1H[46;110H   [5;1H[45;112H[1m[7m5,[5;1H[?25h[?25l[m[46;110H~@k[5;1H[46;110H   [4;1H[45;112H[1m[7m4,[4;1H[?25h[?25l[m[46;110H~@k[4;1H[46;110H   [3;1H[45;112H[1m[7m3,[3;1H[?25h[?25l[m[46;110H~@k[3;1H[46;110H   [2;1H[45;112H[1m[7m2,[2;1H[?25h[?25l[m[46;110H~@k[2;1H[46;110H   [1;10H[45;112H[1m[7m 1,10 [1;10H[?25h[?25l[m[46;110H~@k[1;10H[46;110H   [1;9H[45;113H[1m[7m 1,9 [1;9H[?25h[?25l[m[46;110H~@k[1;9H[46;110H   [1;8H[45;116H[1m[7m8 [1;8H[?25h[?25l[m[46;110H~@k[1;8H[46;110H   [1;7H[45;116H[1m[7m7 [1;7H[?25h[?25l[m[46;110H~@k[1;7H[46;110H   [1;6H[45;116H[1m[7m6 [1;6H[?25h[?25l[m[46;110H~@k[1;6H[46;110H   [1;5H[45;116H[1m[7m5 [1;5H[?25h[?25l[m[46;110H~@k[1;5H[46;110H   [1;4H[45;116H[1m[7m4 [1;4H[?25h[?25l[m[46;110H~@k[1;4H[46;110H   [1;3H[45;116H[1m[7m3 [1;3H[?25h[?25l[m[46;110H~@k[1;3H[46;110H   [1;2H[45;116H[1m[7m2 [1;2H[?25h[?25l[m[46;110H~@k[1;2H[46;110H   [1;1H[45;116H[1m[7m1 [1;1H[?25h[?25l[m[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;2H[45;116H[1m[7m2 [1;2H[?25h[?25l[m[46;110H~@k[1;2H[46;110H   [1;3H[45;116H[1m[7m3 [1;3H[?25h[?25l[m[46;110H~@k[1;3H[46;110H   [1;4H[45;116H[1m[7m4 [1;4H[?25h[?25l[m[46;110H~@k[1;4H[46;110H   [1;5H[45;116H[1m[7m5 [1;5H[?25h[?25l[m[46;110H~@k[1;5H[46;110H   [1;6H[45;116H[1m[7m6 [1;6H[?25h[?25l[m[46;110H~@k[1;6H[46;110H   [1;7H[45;116H[1m[7m7 [1;7H[?25h[?25l[m[46;110H~@k[1;7H[46;110H   [1;8H[45;116H[1m[7m8 [1;8H[?25h[?25l[m[46;110H~@k[1;8H[46;110H   [1;9H[45;116H[1m[7m9 [1;9H[?25h[?25l[m[46;110H~@k[1;9H[46;110H   [1;10H[45;113H[1m[7m1,10 [1;10H[?25h[?25l[m[46;110H~@k[1;10H[?5h[?25h[?5l[?25l[46;110H   [1;10H[?25h[?25l[46;110H~@k[1;10H[46;110H   [1;10H[?25h[?25l[46;110H~@k[1;10H[46;110H   [1;9H[45;113H[1m[7m 1,9 [1;9H[?25h[?25l[m[46;110H~@k[1;9H[46;110H   [1;8H[45;116H[1m[7m8 [1;8H[?25h[?25l[m[46;110H~@k[1;8H[46;110H   [1;7H[45;116H[1m[7m7 [1;7H[?25h[?25l[m[46;110H~@k[1;7H[46;110H   [1;6H[45;116H[1m[7m6 [1;6H[?25h[?25l[m[46;110H~@k[1;6H[46;110H   [1;5H[45;116H[1m[7m5 [1;5H[?25h[?25l[m[46;110H~@k[1;5H[46;110H   [1;4H[45;116H[1m[7m4 [1;4H[?25h[?25l[m[46;110H~@k[1;4H[46;110H   [1;3H[45;116H[1m[7m3 [1;3H[?25h[?25l[m[46;110H~@k[1;3H[46;110H   [1;2H[45;116H[1m[7m2 [1;2H[?25h[?25l[m[46;110H~@k[1;2H[46;110H   [1;1H[45;116H[1m[7m1 [1;1H[?25h[?25l[m[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110Hw[1;1H[46;110H [1;5H[45;116H[1m[7m5 [1;5H[?25h[?25l[m[46;110Hw[1;5H[46;110H [2;1H[45;112H[1m[7m2,0-1 [2;1H[?25h[?25l[m[46;110H~@k[2;1H[46;110H   [1;10H[45;112H[1m[7m 1,10 [1;10H[?25h[?25l[m[46;110H~@k[1;10H[46;110H   [1;9H[45;113H[1m[7m 1,9 [1;9H[?25h[?25l[m[46;110H~@k[1;9H[46;110H   [1;8H[45;116H[1m[7m8 [1;8H[?25h[?25l[m[46;110H~@k[1;8H[46;110H   [1;7H[45;116H[1m[7m7 [1;7H[?25h[?25l[m[46;110H~@k[1;7H[46;110H   [1;6H[45;116H[1m[7m6 [1;6H[?25h[?25l[m[46;110H~@k[1;6H[46;110H   [1;5H[45;116H[1m[7m5 [1;5H[?25h[?25l[m[46;110H~@k[1;5H[46;110H   [1;4H[45;116H[1m[7m4 [1;4H[?25h[?25l[m[46;110H~@k[1;4H[46;110H   [1;3H[45;116H[1m[7m3 [1;3H[?25h[?25l[m[46;110H~@k[1;3H[46;110H   [1;2H[45;116H[1m[7m2 [1;2H[?25h[?25l[m[46;110H~@k[1;2H[46;110H   [1;1H[45;116H[1m[7m1 [1;1H[?25h[?25l[m[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110Hs[1;1H[46;110H [1;1H[46;110Hcl[1;1H[46;110H  [1;1H[46;1H[1m--c INSERT --[m [1mrecording @a[m[1;1Hit status[1;10H[K[1;1H[?25h[?25lsit status[45;116H[1m[7m2 [1;2H[?25h[?25l[msit status[45;116H[1m[7m3 [1;3H[?25h[45;116H4 [1;4H[45;116H5 [1;5H[45;116H6 [1;6H[45;116H7 [1;7H[45;116H8 [1;8H[45;116H9 [1;9H[45;113H1,10 [1;10H[45;116H2 [1;12H[?25l[m[1;11H[K[45;116H[1m[7m1 [1;11H[?25h[?25l[m[1;10H[K[45;116H[1m[7m0 [1;10H[?25h[?25l[m[1;9H[K[45;113H[1m[7m 1,9 [1;9H[?25h[?25l[m[1;8H[K[45;116H[1m[7m8 [1;8H[?25h[?25l[m[1;7H[K[45;116H[1m[7m7 [1;7H[?25h[?25l[m[1;6H[K[45;116H[1m[7m6 [1;6H[?25h[?25l[45;116H5 [1;5H[?25h[?25l[m[1;4H[K[45;116H[1m[7m4 [1;4H[?25h[?25l[m[1;3H[K[45;116H[1m[7m3 [1;3H[?25h[?25l[m[1;2H[K[45;116H[1m[7m2 [1;2H[?25h[?25l[m[1;1H[K[45;116H[1m[7m1 [1;1H[?25h[?5h[?5l[?25l[mq[45;116H[1m[7m2 [1;2H[?25h[?25l[ma[45;116H[1m[7m3 [1;3H[?25h[?25l[m![45;116H[1m[7m4 [1;4H[?25h[?25l[2;44r[m[2;1H[L[1;46r[45;114H[1m[7m2,1 [2;1H[?25h[?25l[m[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[2;1H[?25h[?25l[46;4HINSERTe --^recordingI @a^[m[46;25H[K[3;44r[3;1H[L[1;46r[45;114H[1m[7m3,[3;1H[?25h[?25l[m[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[46;4HINSERTe --^recordingI @a^[m[46;25H[K[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[46;4HINSERTe --^recordingI @a^[m[46;25H[K[46;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[46;4HINSERTe --^recordingI @a^[m[46;25H[K[46;1H[1mrecording @ar[m[46;13H[K[45;112H[1m[7m3,0-1[3;1H[?25h[?25l[m[46;110H^M[3;1H[46;110H  [4;1H[45;112H[1m[7m4,[4;1H[?25h[?25l[m[46;110H^M[4;1H[46;110H  [5;1H[45;112H[1m[7m5,[5;1H[?25h[?25l[m[46;110H^M[5;1H[46;110H  [6;1H[45;112H[1m[7m6,[6;1H[?25hType  :qa!  and press <Enter> to abandon all changes and exit Vim[?5h[?5lType  :qa!  and press <Enter> to abandon all changes and exit VimType  :qa!  and press <Enter> to abandon all changes and exit Vim[?5h[?5l[?25l[m[46;110H~@k[6;1H[46;110H   [5;1H[45;112H[1m[7m5,[5;1H[?25h[?25l[m[46;110H~@k[5;1H[46;110H   [4;1H[45;112H[1m[7m4,[4;1H[?25h[?25l[m[46;110H~@k[4;1H[46;110H   [3;1H[45;112H[1m[7m3,[3;1H[?25h[?25l[m[46;110H~@k[3;1H[46;110H   [2;1H[45;112H[1m[7m2,[2;1H[?25h[?25l[m[46;110H~@k[2;1H[46;110H   [1;3H[45;112H[1m[7m  1,3 [1;3H[?25h[?25l[m[46;110H~@k[1;3H[46;110H   [1;2H[45;116H[1m[7m2 [1;2H[?25h[?25l[m[46;110H~@k[1;2H[46;110H   [1;1H[45;116H[1m[7m1 [1;1H[?25h[?25l[m[46;110H~@k[1;1H[?5h[?25h[?5l[?25l[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110H~@k[1;1H[46;110H   [1;1H[?25h[?25l[46;110Ha[1;1H[46;110H [1;2H[46;1H[1m--c INSERT --[m [1mrecording @a[m[45;116H[1m[7m2 [1;2H[?25h[?25l[mqa![45;116H[1m[7m3 [1;3H[?25h[?25l[m1a![45;116H[1m[7m4 [1;4H[?25h[?25l[2;44r[m[2;1H[L[1;46r[1;4H[K[2;1Ha![45;114H[1m[7m2,1 [2;1H[?25h[45;116H2 [2;2H[45;116H3 [2;3H[?5h[?5l[?25l[3;44r[m[3;1H[L[1;46r[45;114H[1m[7m3,1 [3;1H[?25h[?25l[ma[45;116H[1m[7m2 [3;2H[?25h[?25l[ma[45;116H[1m[7m3 [3;3H[?25h[?25l[mq[45;116H[1m[7m4 [3;4H[?25h[?25l[m1[45;116H[1m[7m5 [3;5H[?25h[?25l[m1[45;116H[1m[7m6 [3;6H[?25h[?25l[m1[45;116H[1m[7m7 [3;7H[?25h[?25l[m1[45;116H[1m[7m8 [3;8H[?25h[?25l[m1[45;116H[1m[7m9 [3;9H[?25h[?25l[m1[45;113H[1m[7m3,10 [3;10H[?25h[?25l[m1[45;116H[1m[7m1 [3;11H[?25h[?25l[m1[45;116H[1m[7m2 [3;12H[?25h[?25l[m1[45;116H[1m[7m3 [3;13H[?25h[?25l[m1[45;116H[1m[7m4 [3;14H[?25h[?25l[m1[45;116H[1m[7m5 [3;15H[?25h[?25l[m1[45;116H[1m[7m6 [3;16H[?25h[?25l[m1[45;116H[1m[7m7 [3;17H[?25h[?25l[m1[45;116H[1m[7m8 [3;18H[?25h[?25l[m1[45;116H[1m[7m9 [3;19H[?25h[?25l[m1[45;115H[1m[7m20 [3;20H[?25h[?25l[m1[45;116H[1m[7m1 [3;21H[?25h[?25l[m1[45;116H[1m[7m2 [3;22H[?25h[?25l[m1[45;116H[1m[7m3 [3;23H[?25h[?25l[m1[45;116H[1m[7m4 [3;24H[?25h[?25l[m1[45;116H[1m[7m5 [3;25H[?25h[?25l[4;44r[m[4;1H[L[1;46r[45;113H[1m[7m 4,1 [4;1H[?25h[?25l[5;44r[m[5;1H[L[1;46r[45;114H[1m[7m5,[5;1H[?25h[?25l[6;44r[m[6;1H[L[1;46r[45;114H[1m[7m6,[6;1H[?25h[?25l[7;44r[m[7;1H[L[1;46r[45;114H[1m[7m7,[7;1H[?25h[?25l[mA[45;116H[1m[7m2 [7;2H[?25h[?25l[mQ[45;116H[1m[7m3 [7;3H[?25h[?25l[m![45;116H[1m[7m4 [7;4H[?25h[?25l[m[7;3H[K[45;116H[1m[7m3 [7;3H[?25h[?25l[m[7;2H[K[45;116H[1m[7m2 [7;2H[?25h[?25l[m[7;1H[K[45;116H[1m[7m1 [7;1H[?25h[?25l[5;44r[m[44;1H
+[1;46r[45;114H[1m[7m6,[6;1H[?25h
